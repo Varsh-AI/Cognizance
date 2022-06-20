@@ -1,0 +1,10 @@
+import numpy as np
+x = np.random.randint(0,2,6)
+print("First array:")
+print(x)
+y = np.random.randint(0,2,6)
+print("Second array:")
+print(y)
+print("Check weather the 2 arrays are equal or not")
+array = np.allclose(x, y)
+print(array)
